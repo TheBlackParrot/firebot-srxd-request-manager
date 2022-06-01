@@ -27,5 +27,13 @@ git clone https://github.com/TheBlackParrot/firebot-srxd-request-manager.git
 ```
 2. Restart Firebot if it's already running.
 
+## Commands
+**[trigger] \#\#\#\#**
+Adds a song into queue
+**[trigger] next**
+Grabs the next song in queue, will automatically download if the song data is not present in the Customs folder.
+**[trigger] skip**
+Skips the next song in queue
+
 ## TODO
 See the TODO tag in this repository's Issue Tracker.
