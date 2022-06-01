@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "unzipper": "^0.10.11"
+  },
+  "name": "firebox-srxd-request-manager",
+  "version": "0.1.0",
+  "main": "srxd-requests.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "TheBlackParrot (https://twitch.tv/theblackparrot)",
+  "license": "MIT",
+  "description": ""
+}
