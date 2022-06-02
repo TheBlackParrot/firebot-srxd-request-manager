@@ -28,14 +28,23 @@ git clone https://github.com/TheBlackParrot/firebot-srxd-request-manager.git
 2. Restart Firebot if it's already running.
 
 ## Commands
-**[trigger] \#\#\#\#**  
-Adds a song into queue  
+**[trigger] \#\#\#\# \<diff\>**  
+Adds a song into queue *(diff: optional. use this to suggest a difficulty to play)*  
 
 **[trigger] next**  
-Grabs the next song in queue, will automatically download if the song data is not present in the Customs folder.  
+Grabs the next song in queue, will automatically download if the song data is not present in the Customs folder  
 
 **[trigger] skip**  
 Skips the next song in queue  
+
+**[trigger] queue**  
+Gives a preview of what's in the queue  
+
+**[trigger] clear**  
+Clears the queue  
+
+**[trigger] link**  
+Gets a link for the currently playing song, *if it was queued*. 
 
 ## TODO
 See the TODO tag in this repository's Issue Tracker.
